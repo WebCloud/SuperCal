@@ -1,0 +1,232 @@
+.switch-replace {
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background: url(../images/switch-bg.png) no-repeat 0 -34px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.switch:checked + .switch-replace {
+	background-position: 0 0;
+}
+.switch:disabled + .switch-replace {
+	background-position: 0 -68px;
+}
+/** IE class **/
+.switch-replace-checked {
+	background-position: 0 0;
+}
+.switch-replace-disabled {
+	background-position: 0 -68px;
+}
+
+.mini-switch-replace {
+	display: inline-block;
+	width: 40px !important;
+	height: 20px !important;
+	background: url(../images/mini-switch-bg.png) no-repeat 0 -24px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.mini-switch:checked + .mini-switch-replace {
+	background-position: 0 0;
+}
+.mini-switch:disabled + .mini-switch-replace {
+	background-position: 0 -48px;
+}
+/** IE class **/
+.mini-switch-replace-checked {
+	background-position: 0 0;
+}
+.mini-switch-replace-disabled {
+	background-position: 0 -48px;
+}
+
+
+.transparent{
+	opacity: .3 !important;
+}
+#cal-legends{
+	margin-top: 10px;
+}
+#cal-legends .filter{
+	margin-left: 5px;
+	background: url(../images/funnel.png) left center no-repeat;
+	padding: 0 0 0 20px;
+}
+#cal-legends .filter.close{
+	margin-left: 5px;
+	background: url(../images/funnel--minus.png) left center no-repeat;
+	padding: 0 0 0 20px;
+}
+#cal-legends ul{
+	display: none;
+	list-style: none;
+	font-size: 14px;
+	margin: 5px 0 !important;
+	padding: 0 5px !important;
+}
+#cal-legends ul li{
+	padding: 10px 10px !important;
+	margin-bottom: 5px;
+	cursor: pointer;
+	border: 1px solid #dddddd;
+	background: #f6f6f6 url(jquery-ui/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-transition: opacity .25s linear;
+	-moz-transition: opacity .25s linear;
+	transition: opacity .25s linear;
+}
+#cal-legends ul li:hover{
+	border: 1px solid #bbb;
+	-moz-box-shadow: 0 1px 2px 1px #ccc;
+	-webkit-box-shadow: 0 1px 2px 1px #ccc;
+	box-shadow: 0 1px 2px 1px #ccc;
+}
+#cal-legends ul li.transparent:hover{
+	opacity: .6 !important;
+	-moz-box-shadow: 0 1px 2px 1px #efefef;
+	-webkit-box-shadow: 0 1px 2px 1px #efefef;
+	box-shadow: 0 1px 2px 1px #efefef;
+}
+#cal-legends ul li span.indicator{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#cal-legends ul li.holydays span.indicator{
+	background: #ebcacb;
+	border: 1px solid #d99294;
+}
+/*para as imagens usei saturação 42 para cada combinação de cores*/
+#cal-legends ul li.holydays .mini-switch-replace{
+	background: url(../images/mini-switch-bg-red.png) no-repeat 0 -24px;
+}
+#cal-legends ul li.sessions span.indicator{
+	background: #ebeaca;
+	border: 1px solid #d8d992;
+}
+#cal-legends ul li.sessions .mini-switch-replace{
+	background: url(../images/mini-switch-bg-yellow.png) no-repeat 0 -24px;
+}
+#cal-legends ul li.birthdays span.indicator{
+	background: #ebd7ca;
+	border: 1px solid #d9b792;
+}
+#cal-legends ul li.birthdays .mini-switch-replace{
+	background: url(../images/mini-switch-bg-orange.png) no-repeat 0 -24px;
+}
+#cal-legends ul li.multi span.indicator{
+	background: #8cb2dc;
+	border: 1px solid #6696d6;
+}
+#cal-legends ul li.multi .mini-switch-replace{
+	background: url(../images/mini-switch-bg-light-blue.png) no-repeat 0 -24px;
+}
+#cal-legends ul li .mini-switch:checked + .mini-switch-replace {
+	background-position: 0 0;
+}
+#cal-legends ul li .mini-switch:disabled + .mini-switch-replace {
+	background-position: 0 -48px;
+}
+
+
+#cal-events{
+	display: none;
+	background: #222;
+	color: #999;
+}
+#cal-events h3{
+	text-shadow: none;
+	margin: 0 0 0 20px !important;
+	padding-top: 10px;
+}
+#cal-events ul{
+	padding: 5px 10px !important;
+	list-style: none;
+}
+#cal-events li{
+	margin-bottom: 5px;
+	width: auto !important;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-transition: background .25s linear;
+	-moz-transition: background .25s linear;
+	transition: background .25s linear;
+}
+#cal-events li:hover{
+	background: #666;
+	border: 1px solid #ccc;
+}
+#cal-events li a{
+	display: block;
+	padding: 10px 15px 10px 35px !important;
+	color: #999 !important;
+	background: url(../images/calendar-list.png) 10px center no-repeat;
+}
+#cal-events li:hover a{
+	color: #fff !important;
+	padding: 9px 14px 9px 34px !important;
+	background-position: 9px center;
+}
+
+#cal-events li ul{
+	display: none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	background: #666;
+	padding: 0 !important;
+	margin:  0 !important;
+}
+#cal-events li:hover ul{
+	background: #222;
+	padding: 0 !important;
+	margin:  0 !important;
+	overflow: hidden !important;
+}
+#cal-events li ul li{
+	margin: 0 !important;
+	padding: 0 !important;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border: none !important;
+	border-top: 1px solid #ccc !important;
+}
+#cal-events li ul li:hover{
+	background: #666;
+}
+#cal-events li:hover ul li a{
+	font-size: 10px !important;
+	padding: 8px 10px 8px 35px !important;
+	background: url(../images/chain.png) 15px center no-repeat;
+}
+#cal-events li ul li a, #cal-events li ul li:hover a{
+	color: #fff !important;
+	font-size: 10px !important;
+	text-shadow: 0px 1px 0px #444;
+	padding: 8px 10px 8px 35px !important;
+	background: url(../images/chain.png) 15px center no-repeat;
+}
+#cal-events li:hover ul.birth-date li a{
+	font-size: 10px !important;
+	padding: 8px 10px 8px 35px !important;
+	background: url(../images/present.png) 15px center no-repeat;
+}
+#cal-events li ul.birth-date li a, #cal-events li ul.birth-date li:hover a{
+	color: #fff !important;
+	font-size: 10px !important;
+	text-shadow: 0px 1px 0px #444;
+	padding: 8px 10px 8px 35px !important;
+	background: url(../images/present.png) 15px center no-repeat;
+}

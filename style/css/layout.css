@@ -1,0 +1,155 @@
+input{
+	outline: none;
+}
+body {
+	background-color: #e8e8e8;
+	color: #3a3a3a;
+	font-family: Tahoma, "Trebuchet MS", Arial, sans-serif;
+	font-size: 13px;
+	line-break: 20px;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+.wrap {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+a {
+	text-decoration: none;
+	outline: 0;
+	color:#AEAEAE;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	vertical-align:bottom;
+}
+.center {
+	text-align: center;
+}
+p {
+	padding-bottom:10px;
+	font-size: 13px;
+	line-height:20px;
+}
+.rounded-wrapper{
+	border: 1px solid #cfcfcf;
+	background-color: #FFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 20px 20px;
+	margin:0 auto;
+}
+
+/* HEADINGS */
+/* ----------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	line-height:100%;
+	margin: 0;
+	padding:0;
+	font-family: Tahoma, Arial, sans-serif;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+h1 {
+	font-size:28px;
+	margin-bottom:10px;
+}
+h2 {
+	font-size:24px;
+	margin-bottom:10px;
+}
+h3 {
+	font-size:21px;
+	margin-bottom:10px;
+}
+h4 {
+	font-size:17px;
+	margin-bottom:10px;
+}
+h5 {
+	font-size:16px;
+	margin-bottom:10px;
+}
+h6 {
+	font-size:14px;
+	margin-bottom:10px;
+}
+h2 a, h4 a {
+	color: #3a3a3a;
+}
+h2 a:hover, h4 a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h5 {
+	font-size: 16px;
+	margin-bottom:10px;
+}
+h6 {
+	font-size: 14px;
+	margin-bottom:10px;
+}
+.headings p {
+	margin-bottom:20px;
+}
+.borderline {
+	height: 50px;
+}
+h1.intro {
+	color:#747474;
+	background-image: url(../images/quote1.png);
+	background-repeat: no-repeat;
+	display: block;
+	padding-left:45px;
+	padding-right: 20px;
+	padding-top:12px;
+	line-height: 31px;
+	background-color: transparent;
+	margin-bottom:60px;
+}
+h1.intro span {
+	color:#626262;
+	background-image: url(../images/quote2.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 37px;
+	height:30px;
+	margin-right:-20px;
+	float: right;
+	margin-top: 12px;
+}
+h3.intro {
+	color:#747474;
+	background-image: url(../images/quote1.png);
+	background-repeat: no-repeat;
+	display: block;
+	padding-left:45px;
+	padding-right: 20px;
+	padding-top:15px;
+	line-height: 25px;
+	margin-bottom:60px;
+	background-color: transparent;
+}
+h3.intro span {
+	color:#747474;
+	background-image: url(../images/quote2.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 37px;
+	height:30px;
+	margin-right:-20px;
+	float: right;
+	margin-top: 10px;
+}

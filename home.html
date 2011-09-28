@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>SuperCal</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<script type="text/javascript" src="style/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="style/supercal/js/supercal.js"></script>
+	<link type="text/css" href="style/css/jquery-ui/jquery-ui-1.8.10.custom.css" rel="stylesheet" />
+	<script type="text/javascript" src="style/js/jquery-ui-1.8.10.custom.min.js"></script>
+	
+	<link href="style/css/widgets.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="style/js/widgets/inettuts.js"></script>
+	<script type="text/javascript" src="style/js/scripts.js"></script>
+</head>
+<body id="home">	
+	<div id="columns" class="rounded-wrapper">
+        <h1 style="margin-left:20px">SuperCal Demo</h1>
+        <div class="clearfix"></div>
+        <ul id="column1" class="column">
+            <li class="widget color-blue" id="intro">
+                <div class="widget-head">
+                    <h3>SuperCal widget</h3>
+                </div>
+                <div class="widget-content">
+                	  <div id="cal-legends">
+                	  <a href="#column3" class="filter">Filtrar</a>
+                	  	<ul>
+                	  		<li class="sessions"><input type="checkbox" name="complex-switch-on" id="complex-switch-on" value="1" class="mini-switch"> A filter</li>
+                	  		<li class="birthdays"><input type="checkbox" name="complex-switch-on" id="complex-switch-on" value="1" class="mini-switch"> Another Filter</li>
+                	  		<li class="holydays"><input type="checkbox" name="complex-switch-on" id="complex-switch-on" value="1" class="mini-switch"> Some Other Filter</li>
+                	  		<li class="multi"><input type="checkbox" name="complex-switch-on" id="complex-switch-on" value="1" class="mini-switch"> YAY</li>
+                	  	</ul>
+                	  </div>
+                    <div id="calendar"></div>
+                    <div id="cal-events">
+                    	<h3>03/25/2011</h3>
+                    		<ul>
+                    			<li>
+                    				<a href="#column3" class="open-cal-events">Some event</a>
+                    				<ul>
+                    					<li>
+                    						<a href="#">a link to this event</a>
+                    					</li>
+                    					<li>
+                    						<a href="#">another link</a>
+                    					</li>
+                    				</ul>
+                    			</li>
+                    		</ul>
+                    		<ul>
+                    			<li>
+                    				<a href="#column3" class="open-cal-events">Another List</a>
+                    				<ul class="birth-date">
+                    					<li><a href="#">some link</a></li>
+                    					<li><a href="#">another link</a></li>
+                    				</ul>
+                    			</li>
+                    		</ul>
+                    </div>
+                    
+                </div>
+            </li>
+        </ul>
+		  <div class="clearfix"></div>
+    </div>
+</body>
+</html>
